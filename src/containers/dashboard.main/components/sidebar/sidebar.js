@@ -67,24 +67,7 @@ export default function Sidebar(props) {
                                     <i className="fa fa-circle text-color"></i>
                                 </div>
                             </div>
-                            <div className="d-flex justify-content-between align-items-center pb-2 pt-2 cursor-pointer" onClick = {() => props.pushSelectedItemItem("item1")}>
-                                <div className="d-flex align-items-center">
-
-                                    <i className="fa fa-circle text-color" style = {{visibility : "hidden"}}></i>
-                                    <div className="pl-2 text-color">Background</div>
-
-
-                                </div>
-                                <div className="text-color">
-                                    <div style = {{visibility:"hidden"}}>15%</div>
-                                </div>
-                                <div className="text-color">
-                                <i class="fas fa-image"></i>
-                                </div>
-                                <div>
-                                    <i className="fa fa-circle text-color"></i>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
