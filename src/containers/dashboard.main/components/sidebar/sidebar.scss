@@ -1,0 +1,22 @@
+#sidebar {
+    .sidebar {
+        background-color: #333333;
+        height:100vh
+    }
+    .text-color {
+         color: #9F9F9F;
+    }
+    .back-color {
+        background-color: #9F9F9F;
+    }
+    .image {
+        position: absolute;
+        left: 40vh;
+        top:20vh;
+         img {
+             width: 50vh;
+             height: 50vh;
+            
+         }
+    }
+}
