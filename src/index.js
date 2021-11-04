@@ -10,15 +10,15 @@ import configureStore from './configureStore';
 import { persistStore } from 'redux-persist';
 import { PersistGate } from 'redux-persist/integration/react';
 const initialState = {};
-export const store = configureStore(initialState);
+// export const store = configureStore(initialState);
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
+    {/* <Provider store={store}> */}
       <Router>
         <App />
       </Router>
-    </Provider>
+    {/* </Provider> */}
   </React.StrictMode>
 
   ,

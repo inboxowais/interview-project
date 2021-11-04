@@ -1,11 +1,12 @@
 import { createStore, applyMiddleware, compose } from 'redux'
 import createSagaMiddleware from 'redux-saga'
-import createReducer from './view.updater/reducers'
+// import createReducer from './view.updater/reducers'
 import { fromJS } from 'immutable';
- import {middlewares} from './view.updater/middlewares/index'
+ 
 
 
 const sagaMiddleWare = createSagaMiddleware();
+
 
 export default function configureStore(initialState = {}) {
     const Middlewares = [
@@ -15,12 +16,12 @@ export default function configureStore(initialState = {}) {
         applyMiddleware(...Middlewares)
     ]
     const store = createStore(
-        createReducer(),
+       null,
         fromJS(initialState),
-        compose(...enhancers)
+       null
     )
 
-    sagaMiddleWare.run(middlewares)
+    // sagaMiddleWare.run(middlewares)
 
 
     store.injectedReducers = {}; // Reducer registry
