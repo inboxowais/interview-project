@@ -49,9 +49,9 @@ export default function DashboardMain(props) {
                 </div>
                 <div className="bg-dark position-relative" style={{ height: "95vh" }}>
                     {
-                        selected.includes("item1") ?
+                        selected.includes("item3") ?
                             <div className="image">
-                                <img src="https://thumbs.dreamstime.com/b/mockup-iphone-screen-background-have-png-isolated-various-applications-158473491.jpg" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KDipP7Bh0dDAmPTKM41qYL6quVPx8zO-tw&usqp=CAU" />
                             </div> : null
                     }
                     {
@@ -61,7 +61,7 @@ export default function DashboardMain(props) {
                             </div> : null
                     }
                     {
-                        selected.includes("item3") ?
+                        selected.includes("item1") ?
                             <div className="image">
                                 <img src="https://toppng.com/uploads/preview/lightning-png-transparent-images-lightni-11562988110qdfbgizx8u.png" />
                             </div> : null
