@@ -1,5 +1,1 @@
-UI is created
-Add all the items in array which we need to show
-on sidebar item click if item already exist delete that item from array otherwise add that item in array
-on basis of that images are being showed
-i can not findout any transparent image you can change image in dashboard.main file so it will be clear
+Make object add add three attributes and initial them to true and click change the value if true to false and if false to true and on the basis of that images are being showd
