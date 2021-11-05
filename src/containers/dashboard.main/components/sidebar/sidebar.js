@@ -12,7 +12,7 @@ export default function Sidebar(props) {
                             <div className="text-color"> Dust Analysis</div>
                         </div>
                         <div className='d-flex flex-column w-100 pl-3 pr-3 ' >
-                            <div className="d-flex justify-content-between align-items-center pt-2 pb-2 cursor-pointer" style = {{backgroundColor : props.selected.includes("item1") ? "lightgray" : null}} onClick = {() => props.pushSelectedItemItem("item1")}>
+                            <div className="d-flex justify-content-between align-items-center pt-2 pb-2 cursor-pointer" style = {{backgroundColor : props.selected.item1 ? "lightgray" : null}} onClick = {() => props.pushSelectedItemItem("item1")}>
                                 <div className="d-flex align-items-center">
 
                                 <i class="far fa-circle" style = {{color:"blue"}}></i>
@@ -30,7 +30,7 @@ export default function Sidebar(props) {
                                     <i className="fa fa-circle text-color"></i>
                                 </div>
                             </div>
-                            <div className="d-flex justify-content-between align-items-center pt-2 pb-2 cursor-pointer"  onClick = {() => props.pushSelectedItemItem("item2")} style = {{backgroundColor : props.selected.includes("item2") ? "lightgray" : null}}>
+                            <div className="d-flex justify-content-between align-items-center pt-2 pb-2 cursor-pointer"  onClick = {() => props.pushSelectedItemItem("item2")} style = {{backgroundColor : props.selected.item2 ? "lightgray" : null}}>
                                 <div className="d-flex align-items-center">
 
                                 <i class="fa fa-square" style = {{color:'red'}} aria-hidden="true"></i>
@@ -49,7 +49,7 @@ export default function Sidebar(props) {
                                     <i className="fa fa-circle text-color text-color"></i>
                                 </div>
                             </div>
-                            <div className="d-flex justify-content-between align-items-center pb-2 pt-2 cursor-pointer" onClick = {() => props.pushSelectedItemItem("item3")} style = {{backgroundColor : props.selected.includes("item3") ? "lightgray" : null}}>
+                            <div className="d-flex justify-content-between align-items-center pb-2 pt-2 cursor-pointer" onClick = {() => props.pushSelectedItemItem("item3")} style = {{backgroundColor : props.selected.item3 ? "lightgray" : null}}>
                                 <div className="d-flex align-items-center">
 
                                 <i class="fas fa-exclamation-triangle" style = {{color : "yellow"}}></i>
